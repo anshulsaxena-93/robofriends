@@ -5,6 +5,7 @@
 * Add css to the Card divison using [tachyons](https://tachyons.io/docs/) library like background,padding,margin,grow,shdow,text center,inline display block (dib),border radius (br3).
 * Add image url to randomly generate image using [RoboHash](https://robohash.org/).
 * Add dummy robots.js data and then create 4 Card and pass data using props to each Card compoenent.
+* Add CardList component and create a array of Card Component and then wrap it as CardList component so we can have all robots dynamically.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
