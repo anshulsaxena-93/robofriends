@@ -1,6 +1,10 @@
 ## Steps
 
-* Create our first Hello World react component and then try to pass props from root component.
+* Create our first Hello World react component using class and then try to pass props from root component.
+* Create Card component using function to add Image,Header,Paragraph.
+* Add css to the Card divison using [tachyons](https://tachyons.io/docs/) library like background,padding,margin,grow,shdow,text center,inline display block (dib),border radius (br3).
+* Add image url to randomly generate image using [RoboHash](https://robohash.org/).
+* Add dummy robots.js data and then create 4 Card and pass data using props to each Card compoenent.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
