@@ -1,4 +1,4 @@
-## Steps
+## Steps:
 
 * Create our first Hello World react component using class and then try to pass props from root component.
 * Create Card component using function to add Image,Header,Paragraph.
@@ -6,6 +6,13 @@
 * Add image url to randomly generate image using [RoboHash](https://robohash.org/).
 * Add dummy robots.js data and then create 4 Card and pass data using props to each Card compoenent.
 * Add CardList component and create a array of Card Component and then wrap it as CardList component so we can have all robots dynamically.
+* Add heading form Robofriends.
+* Add new SearchBox component with css Border(ba),padding(pa{x}),background color (bg-{shade}-{color}),border (b--{style}).
+* Add new App component containing all heading,SearchBox,CardList components.
+* Create a state at the root level by createing the state object in the constructor of App.
+* Create onSearchChange method pass its reference to SearchBox component and assign that reference to onChange of search input.
+* Use setState from State Management to change state searchfield to search field target value which triggers the render of the component and then in render we can filter the robots based on this.state.searchfield value before passing it to CardList component.
+* Add new SEGA FONT LOGO for our heading in App.css from [cufonfonts](http://www.cufonfonts.com) and add to heading css.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
