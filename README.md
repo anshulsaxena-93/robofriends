@@ -14,6 +14,11 @@
 * Use setState from State Management to change state searchfield to search field target value which triggers the render of the component and then in render we can filter the robots based on this.state.searchfield value before passing it to CardList component.
 * Add new SEGA FONT LOGO for our heading in App.css from [cufonfonts](http://www.cufonfonts.com) and add to heading css.
 
+* Add http call in the React lifecycle method DidMount an and then do setState to re-render the component.
+* Add Loading header if the robots length is zero.
+* Create a scroll compoenent that wraps search box and which will fix search box even if we keep scrolling the page.
+* Use props.children to wrap the children.Create a div and apply style to make is scrollable box and then put the children in the component.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
