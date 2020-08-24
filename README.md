@@ -19,6 +19,8 @@
 * Create a scroll compoenent that wraps search box and which will fix search box even if we keep scrolling the page.
 * Use props.children to wrap the children.Create a div and apply style to make is scrollable box and then put the children in the component.
 
+* Create Error Boundary compoenent and maintain error state in componentDidCatch lifecycle method now wrap your components wirh Error Boundary so if anything goes wrong within those component then errors will be handled gracefuly.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
